@@ -32,26 +32,16 @@ class QuoteContainer extends StatelessWidget {
                       children: [
                         Text(
                           "“",
-                          style: GoogleFonts.paytoneOne(
-                              color: Colors.white, fontSize: 35),
+                          style: GoogleFonts.kaushanScript(
+                              color: Color(0xffD11151), fontSize: 80),
                         ),
                       ],
                     ),
                     Text(
                       quoteText,
-                      style: GoogleFonts.anton(
-                          fontSize: 40, color: Color(0xffCD0014)),
+                      style: GoogleFonts.montserrat(
+                          fontSize: 40, color: Colors.white),
                       textAlign: TextAlign.center,
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      children: [
-                        Text(
-                          "”",
-                          style: GoogleFonts.paytoneOne(
-                              color: Colors.white, fontSize: 35),
-                        ),
-                      ],
                     ),
                   ],
                 ),
