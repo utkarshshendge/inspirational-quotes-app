@@ -24,7 +24,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  animated_text_kit: 
   google_fonts:
   http: 
   hive: ^1.4.1+1
